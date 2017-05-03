@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source="https://raw.githubusercontent.com/domdavis/gomake/master/install.sh"
+source="https://raw.githubusercontent.com/domdavis/gomake/master/Makefile"
 
 if [ -f "Makefile" ]; then
     echo "There's already a Makefile here. Aborting."
@@ -18,13 +18,13 @@ go get -u github.com/golang/lint/golint || {
 }
 
 command -v curl && {
-    (curl -s "${source}") > Makefile
+    curl -s "${source}" > Makefile
     echo "Done"
     exit 0
 }
 
 command -v wget && {
-    (wget -qO- "${source}") > Makefile
+    wget -qO- "${source}" > Makefile
     exit 0
 }
 
