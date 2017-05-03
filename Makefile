@@ -6,6 +6,7 @@ clean:
 	go clean
 
 dependencies:
+	go get -u github.com/golang/lint/golint
 	go get -u github.com/kardianos/govendor
 	$(GOBIN)/govendor sync
 
