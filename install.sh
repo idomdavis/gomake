@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source="http://github.com/domdavis/gomake/blob/master/Makefile"
+source="https://raw.githubusercontent.com/domdavis/gomake/master/install.sh"
 
 if [ -f "Makefile" ]; then
     echo "There's already a Makefile here. Aborting."

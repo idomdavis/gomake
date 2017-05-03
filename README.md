@@ -7,20 +7,20 @@ A basic Golang `Makefile`.
 From the root directory of your Go project:
 
 ```bash
-bash <(wget -qO- http://github.com/domdavis/blob/master/install.sh)
+bash <(curl -s  https://raw.githubusercontent.com/domdavis/gomake/master/install.sh)
 ```
 
 or
 
 ```bash
-bash <(curl -s http://github.com/domdavis/blob/master/install.sh)
+bash <(wget -qO-  https://raw.githubusercontent.com/domdavis/gomake/master/install.sh)
 ```
 
 or for the less trusting:
 
 ```bash
 go get -u github.com/golang/lint/golint
-(curl -s http://github.com/domdavis/blob/master/Makefile) > Makefile
+(curl -s  https://raw.githubusercontent.com/domdavis/gomake/master/Makefile) > Makefile
 ```
 
 Which is basically all the script does anyway.
