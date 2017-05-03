@@ -1,5 +1,9 @@
 # Go Make
 
+[![license](https://img.shields.io/github/license/domdavis/gomake.svg)](https://github.com/domdavis/gomake/blob/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/domdavis/gomake.svg)](https://github.com/domdavis/gomake/releases)
+[![](https://img.shields.io/github/issues-raw/domdavis/gomake.svg)](https://github.com/domdavis/gomake/issues)
+
 A basic Golang `Makefile`.
 
 ## Installation

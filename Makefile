@@ -1,3 +1,7 @@
+ifeq ($(GOBIN),)
+GOBIN := $(GOPATH)/bin
+endif
+
 clean:
 	go clean
 
