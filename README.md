@@ -1,8 +1,8 @@
-# Go Make
-
 [![license](https://img.shields.io/badge/license-Public%20Domain-blue.svg)]()
 [![GitHub release](https://img.shields.io/github/release/domdavis/gomake/all.svg)](https://github.com/domdavis/gomake/releases)
 [![](https://img.shields.io/github/issues-raw/domdavis/gomake.svg)](https://github.com/domdavis/gomake/issues)
+
+# Go Make
 
 A basic Golang `Makefile`.
 
