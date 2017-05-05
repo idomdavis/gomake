@@ -14,11 +14,11 @@ build:
 	go build
 
 check:
-	go vet ./...
-	golint ./...
+	go vet `go list ./... | grep -v /vendor/`
+	golint `go list ./... | grep -v /vendor/`
 
 test: check
-	go test ./...
+	go test `go list ./... | grep -v /vendor/`
 
 ci: clean dependencies build test
 
